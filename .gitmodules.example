@@ -1,0 +1,6 @@
+[submodule "app/componente/campos"]
+	path = app/componente/campos
+	url = http://git.contSoft.com.co:2030/finanzas/modulos/campos.git
+[submodule "app/Core/Traits/Campos"]
+	path = app/Core/Traits/Campos
+	url = http://git.contSoft.com.co:2030/finanzas/DB/Campos.git

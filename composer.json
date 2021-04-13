@@ -1,0 +1,55 @@
+{
+    "name": "contSoft/factcontSoft",
+    "description": "Sistema de Informacion FACTcontSoft",
+    "homepage": "https://factcontSoft.contSoft.com.co",
+    "type": "Aplicacion",
+    "authors": [     
+        {
+            "name": "Diego Soba",
+            "email": "didom900@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "v0.13.0",
+        "phpoffice/phpexcel": "1.8.1",
+        "phpoffice/phpspreadsheet": "^1.2",
+        "symfony/validator": "v3.2.6",
+        "jpgraph/jpgraph": "4.0.2",
+        "league/flysystem": "1.0.40",
+        "league/flysystem-sftp": "^1.0",
+        "vlucas/phpdotenv": "v2.4.0",
+        "monolog/monolog": "1.23.0",
+        "nesbot/carbon": "1.22.1",
+        "pusher/pusher-php-server": "^3.0",
+        "filp/whoops": "^2.1",
+        "mailgun/mailgun-php": "2.3.4",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "php-http/message": "^1.6",
+        "laravel/framework": "5.5.*",
+        "guzzlehttp/guzzle": "^6.3",
+        "adodb/adodb-php": "v5.20.*",
+        "phpsysinfo/phpsysinfo": "^3.2",
+        "almasaeed2010/adminlte": "^2.4",
+        "contSoft/gs1_barcode": "^1.0",
+        "barryvdh/laravel-dompdf": "^0.8.1",
+        "dompdf/dompdf": "^0.8.2",
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpunit/phpunit": "6.5.5"
+    },
+    "suggest": {
+        "ext-zip": "Used to write DOCX and ODT",
+        "ext-gd2": "Used to add images",
+        "ext-xmlwriter": "Used to write DOCX and ODT",
+        "ext-xsl": "Used to apply XSL style sheet to main document part of OOXML template",
+        "dompdf/dompdf": "Used to write PDF"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
